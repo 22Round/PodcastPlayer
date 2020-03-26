@@ -22,7 +22,7 @@ class PodCastsSearchController: UITableViewController, UISearchBarDelegate {
         setupTableView()
         setupSearchBar()
         
-        searchBar(searchController.searchBar, textDidChange: "Voong")
+        searchBar(searchController.searchBar, textDidChange: "")
         
     }
     
